@@ -47,6 +47,63 @@ body {
 .container .hero-block .hero-block-information .hero-block-details span {
   font-family: Poppins;
   color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
+.container .hero-block .hero-block-information .hero-block-details .details {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.container .hero-block .hero-block-information .hero-block-details button {
+  padding: 14px 69px 13px;
+  margin: 50px 0 12px 0;
+  background: #FFFFFF;
+  border-radius: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #001958;
+}
+.container .conference-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Poppins;
+  padding: 39px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #001958;
+}
+.container .conference-details .conference-in-members span {
+  align-content: space-around;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4F4F4F;
+}
+.container .numbers {
+  display: flex;
+  justify-content: space-around;
+}
+.container .numbers span {
+  font-family: Poppins;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  color: #828282;
 }
 
 /*# sourceMappingURL=styles.css.map */
