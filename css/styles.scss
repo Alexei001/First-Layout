@@ -32,13 +32,13 @@ body{
         }
         .hero-block-information{
             display: flex;
-            margin: 122px;
             img{
                 margin-right: 39px;
             }
             .hero-block-details{
                 display: flex;
                 flex-flow:column wrap;
+                border:2px solid red;
                  span{
                     font-family: Poppins;
                     color: #FFFFFF;

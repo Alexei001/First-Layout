@@ -35,31 +35,33 @@ body {
 }
 .container .hero-block .hero-block-information {
   display: flex;
-  margin: 122px;
 }
-.container .hero-block .hero-block-information img {
+.container .hero-block .hero-block-information .imag1 {
+  display:flex;
+  align-items: flex-start;
   margin-right: 39px;
 }
 .container .hero-block .hero-block-information .hero-block-details {
   display: flex;
   flex-flow: column wrap;
+  padding-top:0;
 }
 .container .hero-block .hero-block-information .hero-block-details span {
   font-family: Poppins;
   color: #FFFFFF;
   font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 60px;
-}
-.container .hero-block .hero-block-information .hero-block-details .details {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
 }
+.container .hero-block .hero-block-information .hero-block-details span .b1,.b2,.b3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
 .container .hero-block .hero-block-information .hero-block-details button {
-  padding: 14px 69px 13px;
   margin: 50px 0 12px 0;
+  padding: 14px 69px 13px;
   background: #FFFFFF;
   border-radius: 100px;
   font-family: Poppins;
@@ -71,10 +73,9 @@ body {
   align-items: center;
   color: #001958;
 }
-.container .conference-details {
+  .container .conference-details span{
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   font-family: Poppins;
   padding: 39px 0;
   font-style: normal;
@@ -82,28 +83,31 @@ body {
   font-size: 40px;
   line-height: 60px;
   color: #001958;
-}
-.container .conference-details .conference-in-members span {
-  align-content: space-around;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #4F4F4F;
-}
-.container .numbers {
-  display: flex;
-  justify-content: space-around;
-}
-.container .numbers span {
-  font-family: Poppins;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 75px;
-  color: #828282;
-}
+  
+   }
+   .container .conference-details .conference-numbers {
+    display:flex; 
+  }
+   .container .conference-details .conference-numbers .a1,.a2,.a3,.a4{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          color: #4F4F4F;
+          width:calc(100%/4) ;
+   }
+   .container .conference-details .conference-numbers h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 75px;
+        color: #828282;
+   }
+
 
 /*# sourceMappingURL=styles.css.map */
